@@ -153,3 +153,12 @@ Contributions are welcome. Please make sure to:
 * `gem build rack-test.gemspec`
 * `gem push rack-test-$VERSION.gem`
 * Add a discussion post for the release
+
+## Running the tests
+
+Install the gems and run the specs:
+
+```sh
+bundle install
+bundle exec rake spec
+```
