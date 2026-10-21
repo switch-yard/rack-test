@@ -18,7 +18,7 @@ describe "Rack::Test::Utils#build_nested_query" do
   end
 
   it 'converts hashes' do
-    build_nested_query(a: 1).must_equal 'a=1&'
+    build_nested_query(a: 1).must_equal 'a=1'
   end
 
   it 'converts hashes with multiple keys' do
