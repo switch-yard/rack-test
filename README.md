@@ -162,3 +162,9 @@ Install the gems and run the specs:
 bundle install
 bundle exec rake spec
 ```
+
+To run one spec file, name it:
+
+```sh
+bundle exec rspec spec/rack/test/cookie_spec.rb
+```
